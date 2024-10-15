@@ -1,0 +1,9 @@
+version: '2.3'
+services:
+  app:
+    build:
+      context: ${PWD}
+      dockerfile: Dockerfile
+    ports:
+      - 8000:80
+
